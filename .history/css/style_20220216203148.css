@@ -1,0 +1,10 @@
+:root {
+  --white-color: #fff;
+  --green-color: #35a22c;
+}
+
+.header-icon {
+  color: var(--green-color);
+
+  font-size: 45px;
+}

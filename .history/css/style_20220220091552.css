@@ -1,0 +1,127 @@
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  --white-color: #fff;
+  --green-color: #35a22c;
+}
+
+.header-icon {
+  color: var(--green-color);
+
+  font-size: 45px;
+}
+
+.navbar-brand span {
+  font-size: 36px;
+}
+
+.carousel-caption img {
+  display: inline-block;
+  margin-bottom: 20px;
+
+  width: 130px;
+  height: 130px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.carousel-inner {
+  height: 100vh;
+}
+
+.carousel-item {
+  height: 100%;
+}
+
+.bg-item {
+  height: 100%;
+  object-fit: cover;
+}
+
+header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+
+  z-index: 2;
+}
+
+.navbar-dark .navbar-nav .active > .nav-link {
+  color: var(--green-color);
+}
+
+.navbar-dark .navbar-nav .active > .nav-link::before {
+  width: 100%;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  position: relative;
+
+  color: var(--white-color);
+
+  font-size: 16px;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+  color: var(--green-color);
+}
+
+.navbar-dark .navbar-nav .nav-link::before {
+  content: "";
+
+  position: absolute;
+  bottom: 0;
+  left: 0;
+
+  height: 2px;
+  width: 0;
+
+  background-color: var(--green-color);
+
+  transition: all 0.3s linear;
+}
+
+header .nav-item {
+  margin: 0 8px;
+}
+
+header .nav-item:hover .nav-link::before {
+  width: 100%;
+}
+
+.carousel-indicators li {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+}
+
+.carousel-indicators li.active {
+  background-color: var(--green-color);
+}
+
+.carousel-indicators li {
+  background-color: var(--white-color);
+}
+
+.carousel-item {
+  position: relative;
+}
+
+.carousel-item img {
+  padding: 8px;
+  background-color: rgba(39, 43, 54, 0.5);
+}
+
+.carousel-item::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(39, 43, 54, 0.5);
+}
+
+.project {
+  text-align: center;
+}

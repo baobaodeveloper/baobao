@@ -1,0 +1,42 @@
+:root {
+  --white-color: #fff;
+  --green-color: #35a22c;
+}
+
+.header-icon {
+  color: var(--green-color);
+
+  font-size: 45px;
+}
+
+.carousel-caption img {
+  display: inline-block;
+  margin-bottom: 20px;
+
+  width: 130px;
+  height: 130px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.carousel-inner {
+  height: 100vh;
+}
+
+.carousel-item {
+  height: 100%;
+}
+
+.bg-item {
+  height: 100%;
+  object-fit: cover;
+}
+
+header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+
+  z-index: 2;
+}

@@ -1,0 +1,20 @@
+:root {
+  --white-color: #fff;
+  --green-color: #35a22c;
+}
+
+.header-icon {
+  color: var(--green-color);
+
+  font-size: 45px;
+}
+
+.carousel-caption img {
+  width: 130px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.carousel-caption img::before {
+  content: "";
+}
